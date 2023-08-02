@@ -1,0 +1,4432 @@
+@charset "UTF-8";
+
+.wp-block-search .wp-block-search__input {
+    flex-grow: 1 !important;
+    min-width: 3em !important;
+    border: 1px solid #949494 !important;
+    display: inline-block !important;
+    width: auto !important;
+    vertical-align: middle !important;
+    padding: 1.2rem 5.15rem !important;
+    margin-right: 0.5rem !important;
+    border-radius: 0.25rem !important;
+
+}
+
+.some {
+    margin-right: 9999999px;
+}
+
+.snipper {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 1200px !important;
+}
+
+/*
+* 
+* @author Lucas Nogueira
+*/
+
+/* Layout
+-----------------------------*/
+
+/* Force com import
+-----------------------------*/
+
+.navbar-brand {
+    z-index: 2 !important;
+}
+
+
+
+/* Font */
+
+@font-face {
+    font-family: "heavita";
+    src: url(./fonts/Heavitas.ttf);
+}
+
+
+
+/*  Layout
+-----------------------------*/
+:root {
+    --main-color: #001549;
+    --main-color2: #ffc900;
+    --strong: font-weight: bold;
+
+}
+
+
+
+
+
+/* Barra de navegaÃ§Ã£o
+-----------------------------*/
+
+#main-header {
+    background-color: #00499e;
+}
+
+.jkl {
+    margin-left: 250px;
+}
+
+.jkl>a {
+    color: #FFF;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#nav-button:hover {
+    border: 1px solid #ffc900 !important;
+    background-color: #ffc900 !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+nav.navbar-transparente {
+    padding: 28px 0px;
+    margin-top: 43px;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-right: 37px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border: 1px solid var(--main-color2);
+    border-radius: 50px;
+    color: var(--main-color);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+    border: 1px solid var(--main-color2);
+    border-radius: 50px;
+
+}
+
+
+
+/* Capa
+-----------------------------*/
+#esk {
+    z-index: 1;
+    width: 100%;
+
+}
+
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 10px;
+}
+
+.btn-roxo {
+    background: #7c25f8;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+    color: white;
+}
+
+.btn-branco {
+    border: 2px solid white;
+}
+
+.btn-branco:hover {
+    background-color: white;
+    color: black;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 5%;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    left: -50%;
+    z-index: 10;
+}
+
+/* Estrutura conteÃºdos
+-----------------------------*/
+
+#mentor {
+    z-index: 1;
+    margin-top: -26vw;
+}
+
+#mentor2 {
+    z-index: 1;
+    margin-top: -130px;
+    height: 500px;
+}
+
+#mentor .spy1 {
+    color: #00499e;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#mentor .spy2 {
+    color: #ffdd00;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.ajuste {
+    border-radius: 20px;
+}
+
+#mentor .sjin {
+    color: #00499e;
+    font-weight: bold;
+    border: 2px solid;
+    border-left: #00499e;
+    border-right: #00499e;
+    border-bottom: #fff;
+    padding: 25px;
+    border-radius: 90px 90px 0px 0px;
+    cursor: pointer;
+}
+
+#mentor .sjin3 {
+    color: #00499e;
+    font-weight: bold;
+    border: 2px solid;
+    border-left: #00499e;
+    border-right: #00499e;
+    border-bottom: #fff;
+    padding: 25px;
+    border-radius: 90px 90px 0px 0px;
+    cursor: pointer;
+}
+
+#mentor .sjin4 {
+    color: #00499e;
+    font-weight: bold;
+    border: 2px solid #fedd01;
+    border-left: #fedd01;
+    border-right: #fedd01;
+    border-bottom: #fff;
+    padding: 25px;
+    border-radius: 90px 90px 0px 0px;
+    cursor: pointer;
+}
+
+#mentor .sjin1 {
+    color: #00499e;
+    font-weight: bold;
+    border: 2px solid;
+    border-left: #00499e;
+    border-right: #00499e;
+    border-bottom: #fff;
+    padding: 25px;
+    border-radius: 60px 60px 0px 0px;
+    cursor: pointer;
+}
+
+#mentor>.sjin2 {
+    color: #00499e;
+    font-weight: bold;
+    border: 2px solid;
+    border-left: #fec501;
+    border-right: #fec501;
+    border-bottom: #fff;
+    padding: 25px;
+    border-radius: 60px 60px 0px 0px;
+    cursor: pointer;
+}
+
+#mentor>.sjin4>a {
+    color: #00499e;
+}
+
+.lyn {
+    margin-left: 3%;
+    margin-right: 14%;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.25rem;
+    padding-top: 0;
+    top: 10px;
+}
+
+.card {
+
+    background-color: transparent;
+    color: white;
+
+}
+
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#servicos {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#recursos {
+    margin-top: -570px;
+    color: white;
+    margin-bottom: 300px;
+}
+
+#recursos2 {
+    margin-top: -650px;
+    color: white;
+    margin-bottom: 300px;
+    margin-left: 320px;
+}
+
+#servicos h2,
+h3,
+h4,
+h5 {
+    color: #fff;
+}
+
+h4 {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.card {
+    width: 500px;
+    border: 0px
+}
+
+.card>.card-body1 {
+    border-radius: 30px;
+    margin-left: 0px;
+}
+
+.card>.card-body3 {
+    border-radius: 30px;
+    margin-left: 0px;
+}
+
+.card-body1 {
+    background: url(./images/LADO-A.png) left no-repeat;
+    flex: 1 1 auto;
+    padding: 2.25rem;
+    border-radius: 30px;
+
+    padding-bottom: 3.4rem;
+    color: #f23a30;
+    background-color: #091581;
+    padding-left: 210px;
+
+}
+
+.card-body2 {
+    background: url(./images/LADO-B.png) left no-repeat;
+    background-color: #ffb600;
+    background-position-x: center;
+    background-size: 97%;
+    flex: 1 1 auto;
+    padding: 3.25rem;
+    border-radius: 30px;
+
+    color: #fedd01;
+
+
+
+
+}
+
+.card-body3 {
+    background: url(./images/LADO-C.png) right no-repeat;
+    height: 400px !important;
+    flex: 1 1 auto;
+    padding: 2.25rem;
+    padding-left: 5rem;
+    border-radius: 30px;
+
+    color: #00499e;
+    background-color: #064997;
+    padding-left: 10rem;
+}
+
+
+.card-body>a {
+    align-items: center;
+}
+
+.vn {
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.vn1 {
+    border: 1px solid #ffdd00;
+    border-radius: 30px;
+    text-decoration: none
+}
+
+.vn2 {
+    border: 1px solid #001149;
+    border-radius: 30px;
+    text-decoration: none
+}
+
+.vn3 {
+    border: 1px solid #ffdd00;
+    border-radius: 30px;
+    text-decoration: none
+}
+
+.vn4 {
+    border: 1px solid #ffca00;
+    border-radius: 30px;
+    color: #ffca00;
+    text-decoration: none
+}
+
+.vn:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    background: #fff;
+}
+
+.vn4:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #ffca00;
+
+}
+
+.vn5 {
+    border: 1px solid #004d93;
+    border-radius: 30px;
+    color: #05143a;
+    text-decoration: none;
+}
+
+.vn5:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #05143a;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+#recursos2 h2 {
+    color: white;
+}
+
+#recursos2 h3 {
+    color: #9bf0e1;
+}
+
+.spy {
+    color: yellow;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    /* IE 9 */
+    -webkit-transform: rotate(30deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+#meio {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#meio1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    width: 200px;
+}
+
+.loop {
+    position: relative;
+    animation: mymove infinite;
+    animation-duration: 1s;
+}
+
+@keyframes mymove {
+    from {
+        top: -10px;
+    }
+
+    to {
+        top: 90px;
+    }
+}
+
+/* Banner
+-----------------------------*/
+#home {
+    width: 1900px;
+    height: 600px;
+
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 50%;
+
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#galeria {
+    margin-top: -150px;
+    margin-bottom: -125px;
+}
+
+/* RodapÃ©
+-----------------------------*/
+footer {
+    background: #005094;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 430px;
+}
+
+/* Tipografia
+-----------------------------*/
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    /*margin-left: 637px;*/
+    margin-top: 95px;
+}
+
+h3#non {
+    margin-left: 478px;
+}
+
+h3#non2 {
+    margin-left: 357px;
+}
+
+h3#non3 {
+    margin-left: 323px;
+}
+
+h3#non4 {
+    margin-left: 581px;
+}
+
+#menino {
+    margin-top: -160px;
+}
+
+.rodape1 {
+    margin-top: 70px;
+    margin-bottom: -140px;
+}
+
+#slo {
+    width: 100px;
+    margin-top: -280px;
+    margin-left: 119px;
+}
+
+#slo h2 {
+    color: #fff;
+    font-size: 50px;
+}
+
+#mundo {
+    MARGIN-LEFT: -180px;
+    margin-top: -273px;
+}
+
+/* FORMULARIO */
+
+#search-bar2 {
+    border: 2px solid #fedd01;
+    border-radius: 20px 20px 20px 20px !important;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    width: 290px;
+}
+
+#search-bar2>input::placeholder {
+    color: #fedd01 !important;
+}
+
+.form-control {
+    color: red;
+    font-weight: bold;
+    transition: none !important;
+    border-radius: 20px 20px 20px 20px !important;
+    width: auto;
+}
+
+
+#formulario {
+    color: #fedd01;
+    border: 2px solid transparent;
+    font-size: 0.8rem;
+    background-color: transparent;
+    border-radius: 20px 20px 20px 20px !important;
+
+}
+
+
+#form-button {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    margin-top: 7px;
+    margin-left: -5px;
+    font-size: 0.8rem;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+input:focus,
+button:focus {
+    box-shadow: 0 0 0 0 !important;
+    border: 0 none !important;
+    outline: 0 !important;
+}
+
+/* CSS CARROSSEL DE FOTOS */
+
+#galer {
+    position: relative;
+    width: 40%;
+    height: 40vw;
+    margin: 150px auto;
+    font-family: 'Helvetica Neue', sans-serif;
+    perspective: 1400px;
+    transform-style: preserve-3d;
+}
+
+input[type=radio] {
+    position: relative;
+    top: 108%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 0 15px 0 0;
+    opacity: 0.4;
+    transform: translateX(-83px);
+    cursor: pointer;
+}
+
+
+input[type=radio]:nth-child(5) {
+    margin-right: 0px;
+}
+
+input[type=radio]:checked {
+    opacity: 1;
+}
+
+#galer label,
+#galer label img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 400ms ease;
+}
+
+#s1:checked~#slide1,
+#s2:checked~#slide2,
+#s3:checked~#slide3,
+#s4:checked~#slide4,
+#s5:checked~#slide5 {
+    box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
+    transform: translate3d(0%, 0, 0px);
+}
+
+#s1:checked~#slide2,
+#s2:checked~#slide3,
+#s3:checked~#slide4,
+#s4:checked~#slide5,
+#s5:checked~#slide1 {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+    transform: translate3d(20%, 0, -100px);
+}
+
+#s1:checked~#slide3,
+#s2:checked~#slide4,
+#s3:checked~#slide5,
+#s4:checked~#slide1,
+#s5:checked~#slide2 {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    transform: translate3d(40%, 0, -250px);
+}
+
+#s1:checked~#slide5,
+#s2:checked~#slide1,
+#s3:checked~#slide2,
+#s4:checked~#slide3,
+#s5:checked~#slide4 {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+    transform: translate3d(-20%, 0, -100px);
+}
+
+#s1:checked~#slide4,
+#s2:checked~#slide5,
+#s3:checked~#slide1,
+#s4:checked~#slide2,
+#s5:checked~#slide3 {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    transform: translate3d(-40%, 0, -250px);
+}
+
+#galer>input {
+    margin-top: 15px;
+}
+
+
+/*especial*/
+@media (max-width: 1182px) and (max-width: 1277px) {
+    #meio {
+        width: 500px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    h2 {
+        font-size: 2.5em;
+    }
+
+    #socialmedia {
+        display: flex !important;
+        text-align: center !important;
+    }
+
+    #redes-sociais {
+        display: flex !important;
+    }
+
+    #rede-sociais a img {
+        width: 250px !important;
+    }
+
+    .rodape1 {
+        margin-top: 200px;
+
+    }
+
+    #formbar {
+        position: absolute !important;
+        right: -155px !important;
+        top: 195px !important;
+    }
+
+
+
+    #meio {
+        display: none;
+    }
+
+
+    .btn-custom {
+        margin: 10px 15px;
+        font-size: 1em;
+    }
+
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        margin-left: 10px;
+    }
+
+    .carousel-caption {
+        bottom: 0px;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .btn-custom {
+        margin: 1px 1px;
+    }
+
+    h3#non {
+        margin-left: 78px;
+    }
+
+    h3#non2 {
+        margin-left: 45px;
+    }
+
+    h3#non3 {
+        margin-left: 40px;
+    }
+
+    h3#non4 {
+        margin-left: 130px;
+    }
+
+    #recursos2 {
+        display: none;
+    }
+
+    #mentor {
+        display: none;
+    }
+
+    #mentor2 {
+        display: none;
+    }
+
+    #mentor3 {
+        margin-top: -20px;
+    }
+
+    #galeria {
+        margin-top: -20px;
+    }
+
+    #esk {
+        width: 50%;
+
+    }
+
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+    h2 {
+        font-size: 2em;
+    }
+
+    #socialmedia {
+        display: flex !important;
+        text-align: center !important;
+    }
+
+    #redes-sociais {
+        display: flex !important;
+    }
+
+    #rede-sociais a img {
+        width: 250px !important;
+    }
+
+    .rodape1 {
+        margin-top: 200px;
+
+    }
+
+    .rodape2 {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    #formbar {
+        position: absolute !important;
+        right: -250px !important;
+        top: 195px !important;
+    }
+
+    #recursos {
+        padding-top: 10px;
+        background-color: #ffcb00;
+        margin-top: 0px;
+        color: white;
+        height: 300px;
+    }
+
+    #recursos h4 {
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos2 {
+        display: none;
+    }
+
+    #meio {
+        display: none;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .btn-custom {
+        margin: 10px 15px;
+    }
+
+
+    #container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carousel-caption {
+        bottom: -6px;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .btn-custom {
+        margin: 1px 1px;
+    }
+
+    h3#non {
+        margin-left: 78px;
+    }
+
+    h3#non2 {
+        margin-left: 45px;
+    }
+
+    #menino {
+        margin-top: -255px;
+    }
+
+    #mentor {
+        display: none;
+    }
+
+    #mentor2 {
+        display: none;
+    }
+
+    #mentor3 {
+        margin-top: -20px;
+    }
+
+    #galeria {
+        margin-top: -20px;
+    }
+
+    #esk {
+        width: 50%;
+
+    }
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    #search-bar {
+        width: 650% !important;
+    }
+
+    #recursos {
+        margin-top: -300px;
+        color: white;
+
+    }
+
+    #recursos h4 {
+        font-size: 1.3rem;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos2 {
+        margin-top: -300px;
+        color: white;
+
+    }
+
+    #recursos2 h4 {
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+
+    #recursos2 h2 {
+        font-size: 1.5em;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+    }
+
+    #meio {
+        display: none;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    #container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carousel-caption {
+        bottom: -2px;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h3#non {
+        margin-left: 200px;
+    }
+
+    h3#non2 {
+        margin-left: 145px;
+    }
+
+    h3#non3 {
+        margin-left: 90px;
+    }
+
+    h3#non4 {
+        margin-left: 230px;
+    }
+
+    #menino {
+        margin-top: -255px;
+    }
+
+    #mentor {
+        display: none;
+    }
+
+    #mentor2 {
+        display: none;
+    }
+
+    #galeria {
+        margin-top: -20px;
+    }
+
+    #esk {
+        width: 50%;
+
+    }
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #recursos {
+        margin-top: -300px;
+        color: white;
+        margin-bottom: 300px;
+    }
+
+    #recursos h4 {
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+    }
+
+    #menina {
+        margin-top: 40px;
+    }
+
+    #meio {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    #container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    h3#non {
+        margin-left: 300px;
+    }
+
+    h3#non3 {
+        margin-left: 197px;
+    }
+
+    h3#non4 {
+        margin-left: 351px;
+    }
+
+    .card-body1 {
+        padding-left: 131px;
+    }
+
+    #menino {
+        margin-top: -255px;
+    }
+
+    #recursos2 {
+        margin-top: -341px;
+    }
+
+    #recursos2 h2 {
+        font-size: 2.9em;
+    }
+
+    #recursos2 h4 {
+        font-size: 1.1rem;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 2.5em;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos h4 {
+        font-size: 0.8rem;
+        font-weight: 100;
+    }
+
+    #mentor3 {
+        display: none;
+    }
+
+    #mentor {
+        z-index: 1;
+        margin-top: -300px;
+    }
+
+    #galeria {
+        margin-top: -20px;
+    }
+
+    #esk {
+        width: 50%;
+
+    }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+    h1 {
+        font-size: 6em;
+    }
+
+    #esk {
+        margin-top: 15px !important;
+        margin-left: 0px;
+        width: 80%;
+    }
+
+    #container {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .card-body1 {
+        padding-left: 210px;
+    }
+
+    .card-body3 {
+        padding-left: 15rem;
+
+    }
+
+    #recursos2 {
+        margin-top: -430px;
+    }
+
+    #recursos2 h4 {
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+
+    #recursos2 h2 {
+        font-size: 2.5em;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+    }
+
+    #mentor3 {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1301px) and (max-width: 1599px) {
+
+    #mentor3 {
+        display: none;
+    }
+
+    .w-100 {
+        width: 100% !important;
+        height: 380px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1600px) {
+
+    .lyn {
+        margin-right: 6%;
+    }
+
+    .card-body1 {
+        padding-left: 290px;
+    }
+
+    .card-body3 {
+        padding-left: 5rem;
+
+    }
+
+    #recursos2 {
+        margin-top: -800px;
+    }
+
+    #mentor {
+        z-index: 1;
+    }
+
+    #mentor3 {
+        display: none;
+    }
+
+    .carousel-caption {
+        bottom: 60px;
+    }
+
+
+}
+
+
+
+/* RESPONSIVE */
+
+.card-body1 {
+    z-index: inherit !important;
+}
+
+.card-body2 {
+    z-index: 1;
+}
+
+.card-body3 {
+    z-index: inherit !important;
+}
+
+@media (max-width: 375px) {
+
+    .logo-desktop {
+        display: none
+    }
+
+    #nav-desktop {
+        display: none
+    }
+
+    .navbar-brand {
+        width: 75%;
+    }
+
+    #esk {
+        /*display: none!important;*/
+        margin-top: -10px !important;
+
+    }
+
+    .w-100 {
+        height: 50vw;
+    }
+
+
+    #banner {
+        margin-top: 60px;
+    }
+
+    .carousel-caption {
+        margin-left: 40px !important;
+    }
+
+    .carousel-caption>a {
+        display: none;
+    }
+
+    .card-body1 {
+        width: 330px;
+        height: 260px !important;
+        background-size: 115%;
+        background-position: bottom;
+        background-position-x: 5px;
+    }
+
+    .card-body1 .card-title {
+        margin-top: 20px;
+        margin-left: -67px;
+        font-size: 24px;
+    }
+
+    .card-body1 .card-text {
+        margin-left: -50px;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .quebra {
+        display: none !important;
+    }
+
+    .vn1 {
+        margin-left: 8px;
+    }
+
+    .conheca-mais1 {
+        margin-left: -60px !important;
+    }
+
+    .card-body2 {
+        width: 330px;
+        height: 260px !important;
+        text-align: left;
+        text-align-last: center;
+    }
+
+    .card-body2 .card-title {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .card-body2 .card-text {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .card-body3 {
+        width: 330px;
+        height: 260px !important;
+        background-position: bottom;
+        background-size: 110%;
+        background-position-x: -50px;
+    }
+
+    .card-body3 .card-title {
+        margin-top: 20px;
+        margin-left: -108px;
+        font-size: 24px;
+    }
+
+    .card-body3 .card-text {
+        margin-left: -103px;
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+
+    .conheca-mais3 {
+        margin-left: -116px;
+    }
+
+    #recursos {
+        background: url(./images/Secao-2-PPP.png) right no-repeat;
+        background-position: bottom;
+        background-size: 160%;
+        height: 300px;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+
+    #boy {
+        margin-top: 55px;
+    }
+
+    #recursos h4 {
+        font-size: 1.0rem;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 25px;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos3 {
+        background: url(./images/Secao\ -\ Mulher\ -\ PPPP.png) center no-repeat;
+        margin-top: -188px;
+        margin-bottom: 5px;
+        background-size: 161%;
+    }
+
+    #recursos3 h2 {
+        color: #fff;
+        font-size: 25px;
+        line-height: 20px;
+        text-align-last: right;
+    }
+
+    #recursos3 h4 {
+        color: #05143a;
+        font-size: 1.0rem;
+        margin-top: 33px;
+        text-align-last: right;
+    }
+
+    .vn4 {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .vn5 {
+        float: right;
+    }
+
+    .quebra {
+        display: none !important;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    #galeria {
+        margin-top: -110px !important;
+    }
+
+    #textgaleria>h3 {
+        font-size: 2.5rem !important;
+    }
+
+    #galer {
+        width: 53%;
+        height: 57vw;
+    }
+
+    .loop>img {
+        height: 60% !important;
+        margin-left: 40px;
+    }
+
+    .rodape2 {
+        background: url(./images/Secao\ -\ mapa-\ PP.png) center no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        height: 24vh;
+    }
+
+    #mapdesc>h1 {
+        font-size: 15px;
+        margin-top: 58px;
+        margin-left: 20px;
+        font-weight: 400;
+    }
+
+    #mapdesc>h3 {
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: -37px;
+        margin-left: 20px;
+    }
+
+    #vem>img {
+        width: 310px;
+    }
+
+    #social {
+        /*background: url(../src/images/fundo-menina-rodape-P.png) right no-repeat;
+		background-size: 92%;
+		background-position: right;
+		background-position-x: 105px; */
+        margin-bottom: -121px;
+        flex: unset !important;
+        display: flex;
+        max-width: unset !important;
+    }
+
+    #instagram {
+        width: 100%;
+        display: inline-grid;
+        justify-content: end;
+    }
+
+    #facebook {
+        width: 100%;
+        display: inline-grid;
+        justify-content: start;
+    }
+
+
+    #social>a {
+        align-content: center;
+        margin-top: 30px;
+    }
+
+    #social>a>img {
+        width: 155px;
+    }
+
+    #logofooter {
+        text-align: center;
+    }
+
+    #footer li {
+        display: none;
+    }
+
+    #footer-md {
+        display: none;
+    }
+
+    #formbar {
+        display: none;
+    }
+
+    #search-bar1 {
+        display: none !important;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 414px) {
+    #banner {
+        margin-top: -30px;
+    }
+
+    .logo-desktop {
+        display: none
+    }
+
+    #nav-desktop {
+        display: none
+    }
+
+    .navbar-brand {
+        width: 75%;
+    }
+
+    #esk {
+        /*display: none!important;*/
+        margin-top: -10px !important;
+
+    }
+
+
+    .w-100 {
+        height: 50vw;
+    }
+
+    .carousel-caption {
+        margin-left: 40px !important;
+    }
+
+    .carousel-caption>a {
+        display: none;
+    }
+
+
+    .lyn {
+        width: 100%;
+    }
+
+    #servicos {
+        width: 100%;
+    }
+
+    #row1 {
+        width: 100%;
+    }
+
+    .card {
+        width: 100% !important;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .card-body1 {
+        width: 100%;
+        height: 260px !important;
+        background-size: 115%;
+        background-position: bottom;
+        background-position-x: 5px;
+    }
+
+    .card-body1 .card-title {
+        margin-top: 20px;
+        margin-left: -67px;
+        font-size: 24px;
+    }
+
+    .card-body1 .card-text {
+        margin-left: -50px;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .quebra {
+        display: none !important;
+    }
+
+    .vn1 {
+        margin-left: 8px;
+    }
+
+    .conheca-mais1 {
+        margin-left: -60px !important;
+    }
+
+    .card-body2 {
+        width: 100%;
+        height: 260px !important;
+        text-align: left;
+        text-align-last: center;
+    }
+
+    .card-body2 .card-title {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .card-body2 .card-text {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .card-body3 {
+        width: 100%;
+        height: 260px !important;
+        background-position: bottom;
+        background-size: 110%;
+        background-position-x: -50px;
+    }
+
+    .card-body3 .card-title {
+        margin-top: 20px;
+        margin-left: -108px;
+        font-size: 24px;
+    }
+
+    .card-body3 .card-text {
+        margin-left: -103px;
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+
+    .conheca-mais3 {
+        margin-left: -116px;
+    }
+
+    #recursos {
+        background: url(./images/Secao-2-PPP.png) right no-repeat;
+        background-position: bottom;
+        background-size: 160%;
+        height: 83vw;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+
+    #boy {
+        margin-top: 80px;
+    }
+
+    #recursos h4 {
+        font-size: 1.0rem;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 25px;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos3 {
+        background: url(./images/Secao\ -\ Mulher\ -\ PPPP.png) center no-repeat;
+        margin-top: -192px;
+        margin-bottom: 5px;
+        background-size: 155%;
+    }
+
+    #recursos3 h2 {
+        color: #fff;
+        font-size: 25px;
+        line-height: 20px;
+        text-align-last: right;
+    }
+
+    #recursos3 h4 {
+        color: #05143a;
+        font-size: 1.0rem;
+        margin-top: 33px;
+        text-align-last: right;
+    }
+
+    .vn4 {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .vn5 {
+        float: right;
+    }
+
+    .quebra {
+        display: none !important;
+    }
+
+    #galeria {
+        margin-top: -110px !important;
+    }
+
+    #textgaleria>h3 {
+        font-size: 2.5rem !important;
+    }
+
+    .loop>img {
+        height: 60% !important;
+        margin-left: 40px;
+    }
+
+    #galer {
+        width: 53%;
+        height: 57vw;
+    }
+
+    .rodape2 {
+        background: url(./images/Secao\ -\ mapa-\ PP.png) center no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        height: 24vh;
+    }
+
+    #mapdesc>h1 {
+        font-size: 15px;
+        margin-top: 58px;
+        margin-left: 20px;
+        font-weight: 400;
+    }
+
+    #mapdesc>h3 {
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: -37px;
+        margin-left: 20px;
+    }
+
+    #vem>img {
+        width: 310px;
+    }
+
+    #social {
+        /*background: url(../src/images/fundo-menina-rodape-P.png) right no-repeat;
+		background-size: 92%;
+		background-position: right;
+		background-position-x: 105px; */
+        margin-bottom: -121px;
+        flex: unset !important;
+        display: flex;
+        max-width: unset !important;
+    }
+
+    #instagram {
+        width: 100%;
+        display: inline-grid;
+        justify-content: end;
+    }
+
+    #facebook {
+        width: 100%;
+        display: inline-grid;
+        justify-content: start;
+    }
+
+
+    #social>a {
+        align-content: center;
+        margin-top: 30px;
+    }
+
+    #social>a>img {
+        width: 155px;
+    }
+
+    #logofooter {
+        text-align: center;
+    }
+
+    #footer li {
+        display: none;
+    }
+
+    #footer-md {
+        display: none;
+    }
+
+    #formbar {
+        display: none;
+    }
+
+    #search-bar1 {
+        display: none !important;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 575px) {
+
+    .logo-desktop {
+        display: none
+    }
+
+    #banner {
+        margin-top: -30px;
+    }
+
+    #nav-desktop {
+        display: none
+    }
+
+    .bannercontainer {
+        width: 100%;
+    }
+
+    .carousel-caption {
+        margin-left: 40px !important;
+    }
+
+    .carousel-caption>a {
+        display: none;
+    }
+
+    .w-100 {
+        height: 50vw;
+    }
+
+
+    .lyn {
+        width: 100%;
+    }
+
+    #servicos {
+        width: 100%;
+    }
+
+    #row1 {
+        width: 100%;
+    }
+
+    .card {
+        width: 100% !important;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .card-body1 {
+        width: 100%;
+        height: 300px !important;
+        text-align: center;
+        align-items: center;
+        display: grid;
+        background-size: 80%;
+        background-position: bottom;
+        background-position-x: 5px;
+    }
+
+    .card-body1 .card-title {
+        margin-top: 20px;
+        font-size: 7vw;
+        margin-left: -60px;
+
+    }
+
+    .card-body1 .card-text {
+        font-size: 7vw;
+        margin-bottom: 40px;
+        margin-left: -60px;
+    }
+
+    .conheca-mais1 {
+        margin-left: -60px;
+
+    }
+
+    .quebra {
+        display: none !important;
+    }
+
+    .card-body2 {
+        width: 100%;
+        height: 300px !important;
+        text-align-last: center;
+        display: grid;
+        align-content: center;
+    }
+
+    .card-body2 .card-title {
+        margin-top: 20px;
+        font-size: 7vw;
+    }
+
+    .card-body2 .card-text {
+        font-size: 7vw;
+        margin-bottom: 25px;
+    }
+
+    .card-body3 {
+        width: 100%;
+        height: 300px !important;
+        background-position: bottom;
+        background-size: 110%;
+        background-position-x: -50px;
+        display: grid;
+        text-align: center;
+        align-content: center;
+        justify-content: left;
+        padding-left: 3rem;
+    }
+
+    .card-body3 .card-title {
+        font-size: 7vw;
+    }
+
+    .card-body3 .card-text {
+        margin-bottom: 25px;
+        font-size: 7vw;
+    }
+
+    #recursos {
+        background: url(./images/Secao-2-PPP.png) right no-repeat;
+        background-position: bottom;
+        background-size: 160%;
+        height: 81vw;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+
+    #recursos>div {
+        height: 100%;
+    }
+
+    #boy {
+        display: grid;
+        height: 100%;
+        align-content: center;
+    }
+
+    #recursos h4 {
+        font-size: 3vw;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 4vw;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos3 {
+        background: url(./images/Secao\ -\ Mulher\ -\ PPPP.png) center no-repeat;
+        margin-top: -198px;
+        margin-bottom: 5px;
+        height: 74vw;
+        background-size: 155%;
+    }
+
+    #recursos3 h2 {
+        font-size: 4vw;
+        line-height: 6vw;
+        text-align-last: right;
+    }
+
+    #recursos3 h4 {
+        color: #05143a;
+        font-size: 18px;
+        margin-top: 33px;
+        text-align-last: right;
+    }
+
+    .vn4 {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .vn5 {
+        float: right;
+    }
+
+    .quebra {
+        display: none !important;
+    }
+
+    #galeria {
+        margin-top: -110px !important;
+    }
+
+    #textgaleria>h3 {
+        font-size: 2.5rem !important;
+    }
+
+    .loop>img {
+        height: 60% !important;
+        margin-left: 40px;
+    }
+
+    .rodape1 {
+        display: none;
+    }
+
+    .rodape2 {
+        background: url(./images/Secao\ -\ mapa-\ PP.png) center no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        height: 61vw;
+    }
+
+    .rodape2>div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #mapdesc>h1 {
+        font-size: 5vw;
+        margin-left: 20px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    #mapdesc>h3 {
+        font-size: 3vw;
+        font-weight: 400;
+        margin-left: 20px;
+        margin-top: unset;
+    }
+
+    #galer {
+        width: 45%;
+    }
+
+    #socialmedia {
+        margin-top: 20px;
+    }
+
+    #vem {
+        height: 15vw;
+    }
+
+    #vem>img {
+        width: 310px;
+    }
+
+    #social {
+        /*background: url(../src/images/fundo-menina-rodape-P.png) right no-repeat;
+		background-size: 92%;
+		background-position: right;
+		background-position-x: 105px; */
+        margin-bottom: -121px;
+        flex: unset !important;
+        display: flex;
+        max-width: unset !important;
+    }
+
+    #instagram {
+        width: 100%;
+        display: inline-grid;
+        justify-content: end;
+    }
+
+    #facebook {
+        width: 100%;
+        display: inline-grid;
+        justify-content: start;
+    }
+
+
+    #social>a {
+        align-content: center;
+        margin-top: 30px;
+    }
+
+    #social>a>img {
+        width: 155px;
+    }
+
+    #footer1 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 2.5vw;
+    }
+
+    #footer1>div {
+        width: 25vw;
+    }
+
+    #logofooter>img {
+        width: 25vw;
+        margin-top: unset !important;
+    }
+
+    #footer-md {
+        display: none;
+    }
+
+    #formbar {
+        display: none !important;
+    }
+
+    #search-bar1 {
+        display: none !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 684px) {
+
+    .logo-desktop {
+        display: none
+    }
+
+    .rodape2 {
+        display: none;
+    }
+
+    #nav-desktop {
+        display: none
+    }
+
+    #banner {
+        margin-top: -10px;
+    }
+
+    .bannercontainer {
+        width: 100%;
+    }
+
+    .bannerText {
+        font-size: 20px!important;
+        margin-bottom: 50px!important;
+    }
+
+    .carousel-caption {
+        margin-left: 40px !important;
+    }
+
+    .carousel-caption>a {
+        display: none;
+    }
+
+    .w-100 {
+        height: 50vw;
+    }
+
+    #row1>div {
+        flex: unset;
+        max-width: unset;
+    }
+
+    .lyn {
+        width: 100%;
+    }
+
+    #servicos {
+        width: 100%;
+    }
+
+    #row1 {
+        width: 100%;
+    }
+
+    .card {
+        width: 100% !important;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .card-body1 {
+        width: 100%;
+        height: 300px !important;
+        text-align: center;
+        align-items: center;
+        display: grid;
+        background-size: 80%;
+        background-position: bottom;
+        background-position-x: 5px;
+    }
+
+    .card-body1 .card-title {
+        margin-top: 20px;
+        font-size: 7vw;
+        margin-left: -60px;
+
+    }
+
+    .card-body1 .card-text {
+        font-size: 7vw;
+        margin-bottom: 40px;
+        margin-left: -60px;
+    }
+
+    .conheca-mais1 {
+        margin-left: -60px;
+
+    }
+
+    .quebra {
+        display: none !important;
+    }
+
+    .card-body2 {
+        width: 100%;
+        height: 300px !important;
+        text-align-last: center;
+        display: grid;
+        align-content: center;
+    }
+
+    .card-body2 .card-title {
+        margin-top: 20px;
+        font-size: 7vw;
+    }
+
+    .card-body2 .card-text {
+        font-size: 7vw;
+        margin-bottom: 25px;
+    }
+
+    .card-body3 {
+        width: 100%;
+        height: 300px !important;
+        background-position: bottom;
+        background-size: 110%;
+        background-position-x: -50px;
+        display: grid;
+        text-align: center;
+        align-content: center;
+        justify-content: left;
+        padding-left: 3rem;
+    }
+
+    .card-body3 .card-title {
+        font-size: 7vw;
+    }
+
+    .card-body3 .card-text {
+        margin-bottom: 25px;
+        font-size: 7vw;
+    }
+
+    #recursos {
+        background: url(./images/Secao-2-PP.png) right no-repeat;
+        background-position: bottom;
+        background-size: 127%;
+        height: 64vw;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+
+    #recursos>div {
+        height: 100%;
+    }
+
+    #boy {
+        display: grid;
+        height: 100%;
+        align-content: center;
+    }
+
+    #recursos h4 {
+        font-size: 4vw;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 7vw;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos3 {
+        background: url(./images/Secao\ -\ Mulher\ -\ PPP.png) center no-repeat;
+        margin-top: -171px;
+        margin-bottom: 5px;
+        height: 90vw;
+        background-size: 150%;
+    }
+
+    #recursos3 h2 {
+        font-size: 7vw;
+        line-height: 6vw;
+        text-align-last: right;
+
+    }
+
+    #recursos3 h4 {
+        color: #05143a;
+        font-size: 4vw;
+        margin-top: 22vw;
+        text-align-last: right;
+    }
+
+    #mentortitle {
+        margin-bottom: 40px;
+        margin-top: -30px;
+    }
+
+    .vn4 {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .vn5 {
+        float: right;
+    }
+
+    .quebra {
+        display: none !important;
+    }
+
+    #galeria {
+        margin-top: -110px !important;
+    }
+
+    #textgaleria>h3 {
+        font-size: 2.5rem !important;
+    }
+
+    .loop>img {
+        height: 60% !important;
+        margin-left: 40px;
+    }
+
+    .rodape1 {
+        display: none;
+    }
+
+    .rodape2 {
+        background: url(./images/Secao\ -\ mapa-\ PP.png) center no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        height: 61vw;
+    }
+
+    .rodape2>div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #mapdesc>h1 {
+        font-size: 5vw;
+        margin-left: 20px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    #mapdesc>h3 {
+        font-size: 3vw;
+        font-weight: 400;
+        margin-left: 20px;
+        margin-top: unset;
+    }
+
+    #vem {
+        height: 15vw;
+    }
+
+    #vem>img {
+        width: 310px;
+    }
+
+    #social {
+        background: url(./images/fundo-menina-rodape-P.png) right no-repeat;
+        background-size: 92%;
+        background-position: right;
+        background-position-x: 105px;
+        margin-bottom: -121px;
+        flex: unset !important;
+        display: flex;
+        max-width: unset !important;
+    }
+
+    #instagram {
+        width: 100%;
+        display: inline-grid;
+        justify-content: end;
+    }
+
+    #facebook {
+        width: 100%;
+        display: inline-grid;
+        justify-content: start;
+    }
+
+
+    #social>a {
+        align-content: center;
+        margin-right: 40px;
+        margin-left: -15px;
+    }
+
+    #social>a>img {
+        width: 155px;
+    }
+
+    #footer1 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 14px;
+    }
+
+    #footer1>div {
+        width: 22vw;
+        margin-right: 10px;
+    }
+
+    #logofooter>img {
+        width: 140px;
+        margin-top: unset !important;
+    }
+
+    #footer-md {
+        display: none;
+    }
+
+    #formbar {
+        display: none !important;
+    }
+
+    #search-bar1 {
+        display: none !important;
+    }
+
+    .rodape {
+        display: none;
+    }
+}
+
+
+@media (min-width: 685px) and (max-width: 767px) {
+
+    .logo-desktop {
+        display: none
+    }
+
+    #nav-desktop {
+        display: none
+    }
+
+    #banner {
+        margin-top: 20px;
+    }
+
+    .bannercontainer {
+        width: 100%;
+    }
+
+    .bannerText {
+        font-size: 20px!important;
+        margin-bottom: 50px!important;
+    }
+
+    .carousel-caption {
+        margin-left: 40px !important;
+    }
+
+    .carousel-caption>a {
+        display: none;
+    }
+
+    .w-100 {
+        height: 50vw;
+    }
+
+    .lyn {
+        width: 100%;
+    }
+
+    #servicos {
+        width: 100%;
+    }
+
+    #row1 {
+        width: 95%;
+        margin-left: unset;
+    }
+
+    .card {
+        width: 100% !important;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .card-body1 {
+        width: 120%;
+        height: 300px !important;
+        text-align: end;
+        align-items: center;
+        display: grid;
+        background-size: 160%;
+        background-position: bottom;
+        background-position-x: -15px;
+        padding-left: unset;
+    }
+
+    .card-body1 .card-title {
+        margin-top: 20px;
+        font-size: 2.5vw;
+        margin-right: 8px;
+    }
+
+    .card-body1 .card-text {
+        font-size: 5vw;
+        text-align: justify;
+        justify-self: center;
+        margin-left: 6vw;
+
+    }
+
+    .conheca-mais1 {
+        margin-right: 11px;
+    }
+
+    .card-body2 {
+        width: 150%;
+        height: 300px !important;
+        display: grid;
+        background-size: 120%;
+    }
+
+    .card-body2 .card-title {
+        margin-top: 20px;
+        font-size: 2.5vw;
+    }
+
+    .card-body2 .card-text {
+        font-size: 5vw;
+    }
+
+    .card-body3 {
+        width: 120%;
+        height: 300px !important;
+        background-position: initial;
+        background-size: 110%;
+        background-position-x: -50px;
+        display: grid;
+        align-content: center;
+        justify-content: left;
+        padding-left: 4rem;
+    }
+
+    .card-body3 .card-title {
+        font-size: 2.5vw;
+    }
+
+    .card-body3 .card-text {
+        font-size: 5vw;
+    }
+
+    #recursos {
+        background: url(./images/Secao-2-PP.png) right no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        height: 64vw;
+        margin-top: -107px;
+        padding-top: 10px;
+    }
+
+    #recursos>div {
+        height: 100%;
+    }
+
+    #boy {
+        display: grid;
+        height: 100%;
+        align-content: center;
+        margin-top: 43px;
+    }
+
+    #recursos h4 {
+        font-size: 3vw;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 5vw;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos3 {
+        background: url(./images/Secao\ -\ Mulher\ -\ PP.png) center no-repeat;
+        margin-top: -255px;
+        height: 90vw;
+        background-size: 100%;
+    }
+
+    #recursos3 h2 {
+        font-size: 5vw;
+        line-height: 6vw;
+        text-align-last: right;
+
+    }
+
+    #recursos3 h4 {
+        color: #05143a;
+        font-size: 3vw;
+        margin-top: 25vw;
+        text-align-last: right;
+    }
+
+    .quebra1 {
+        display: none !important;
+    }
+
+    #mentortitle {
+        margin-bottom: 40px;
+        margin-top: -109px;
+    }
+
+    .vn4 {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .vn5 {
+        float: right;
+    }
+
+
+    #galeria {
+        margin-top: -110px !important;
+    }
+
+    #textgaleria>h3 {
+        font-size: 2.5rem !important;
+    }
+
+    .loop>img {
+        height: 60% !important;
+        margin-left: 40px;
+    }
+
+    .rodape1 {
+        display: none;
+    }
+
+    .rodape2 {
+        background: url(./images/Secao\ -\ mapa-\ P.png) center no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        height: 61vw;
+    }
+
+    .rodape2>div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #mapdesc>h1 {
+        font-size: 5vw;
+        margin-left: 20px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    #mapdesc>h3 {
+        font-size: 3vw;
+        font-weight: 400;
+        margin-left: 20px;
+        margin-top: unset;
+    }
+
+    #vem {
+        height: 15vw;
+    }
+
+    #vem>img {
+        width: 310px;
+    }
+
+    #social {
+        background: url(./images/fundo-menina-rodape-P.png) right no-repeat;
+        background-size: 92%;
+        background-position: right;
+        background-position-x: 105px;
+        margin-bottom: -121px;
+        flex: unset !important;
+        display: flex;
+        max-width: unset !important;
+    }
+
+    #instagram {
+        width: 100%;
+        display: inline-grid;
+        justify-content: end;
+    }
+
+    #facebook {
+        width: 100%;
+        display: inline-grid;
+        justify-content: start;
+    }
+
+
+    #social>a {
+        align-content: center;
+        margin-right: 40px;
+        margin-left: -15px;
+    }
+
+    #social>a>img {
+        width: 155px;
+    }
+
+    #footer1 {
+        /*display: grid;
+    	grid-template-columns: repeat(4, 1fr);
+		font-size: 14px;*/
+        margin-left: -75px;
+    }
+
+    #footer1>div {
+        width: 147px;
+        margin-right: 10px;
+    }
+
+    #logofooter>img {
+        width: 140px;
+        margin-top: unset !important;
+    }
+
+    #footer li {
+        /*display: none;*/
+    }
+
+    #footer-md {
+        display: none;
+    }
+
+    #formbar {
+        display: none !important;
+    }
+
+    #search-bar1 {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #main-header {
+        margin-bottom: 29px;
+    }
+
+    .jkl {
+        margin-left: -32px !important;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    nav.navbar-transparente {
+        padding: unset;
+        margin-top: unset;
+    }
+
+    #logo {
+        margin-top: -170px;
+    }
+
+    .navbar {
+        margin-bottom: 110px !important;
+    }
+
+    .navbar-brand {
+        width: 145px;
+    }
+
+    .nav-item {
+        font-size: 14px;
+        margin-left: -35px;
+    }
+
+    .navbar-nav {
+        margin-left: 177px !important;
+    }
+
+    #nav-mob {
+        display: none;
+    }
+
+    #esk {
+        width: 100%;
+        height: 100%;
+        margin-left: -4px;
+    }
+
+    #banner {
+        margin-top: 20px;
+    }
+
+    .bannercontainer {
+        width: 100%;
+    }
+
+    .bannerText {
+        font-size: 30px!important;
+        margin-bottom: 50px!important;
+    }
+
+    .carousel-caption {
+        margin-left: 40px !important;
+    }
+
+    .carousel-caption>a {
+        display: none;
+    }
+
+    .w-100 {
+        height: 50vw;
+    }
+
+    .lyn {
+        width: 100%;
+    }
+
+    #servicos {
+        width: 100%;
+    }
+
+    #row1 {
+        width: 95%;
+        margin-left: unset;
+    }
+
+    .card {
+        width: 100% !important;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .card-body1 {
+        width: 120%;
+        height: 37vw !important;
+        text-align: end;
+        align-items: center;
+        display: grid;
+        background-size: 160%;
+        background-position: bottom;
+        background-position-x: -15px;
+        padding-left: unset;
+    }
+
+    .card-body1 .card-title {
+        margin-top: 20px;
+        font-size: 2.5vw;
+        justify-self: center;
+        margin-left: 6vw;
+    }
+
+    .card-body1 .card-text {
+        font-size: 5vw;
+        text-align: justify;
+        justify-self: center;
+
+    }
+
+    .conheca-mais1 {
+        justify-self: center;
+    }
+
+    .card-body2 {
+        width: 150%;
+        height: 37vw !important;
+        display: grid;
+        background-size: 120%;
+    }
+
+    .card-body2 .card-title {
+        margin-top: 20px;
+        font-size: 2.5vw;
+    }
+
+    .card-body2 .card-text {
+        font-size: 5vw;
+    }
+
+    .card-body3 {
+        width: 120%;
+        height: 37vw !important;
+        background-position: initial;
+        background-size: 110%;
+        background-position-x: -50px;
+        display: grid;
+        align-content: center;
+        justify-content: left;
+        padding-left: 5rem;
+    }
+
+    .card-body3 .card-title {
+        font-size: 2.5vw;
+    }
+
+    .card-body3 .card-text {
+        font-size: 5vw;
+    }
+
+    #menina {
+        display: none !important;
+    }
+
+    #menino {
+        display: none !important;
+    }
+
+    #recursos {
+        background: url(./images/Secao-2-M.png) right no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        height: 64vw;
+        margin-top: -107px;
+        padding-top: 10px;
+        margin-bottom: unset;
+    }
+
+    #recursos>div {
+        height: 100%;
+    }
+
+    #boy {
+        display: grid;
+        height: 100%;
+        align-content: center;
+        margin-top: 43px;
+    }
+
+    #recursos h4 {
+        font-size: 3vw;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 5vw;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos2 {
+        display: none !important;
+    }
+
+    #resources3 {
+        flex: unset !important;
+        max-width: unset !important;
+        margin-top: 3vw;
+    }
+
+    #recursos3 {
+        background: url(./images/Secao\ -\ Mulher\ -M.png) center no-repeat;
+        margin-top: -28vw;
+        height: 90vw;
+        background-size: 100%;
+    }
+
+    #recursos3 h2 {
+        font-size: 5vw;
+        line-height: 6vw;
+        text-align-last: right;
+
+    }
+
+    #recursos3 h4 {
+        color: #05143a;
+        font-size: 3vw;
+        margin-top: 25vw;
+        text-align-last: right;
+    }
+
+    .quebra1 {
+        display: none !important;
+    }
+
+    #mentortitle {
+        margin-bottom: 25vw;
+        margin-top: -18vw;
+    }
+
+    #mentor3 {
+        margin-top: -23vw;
+    }
+
+    .vn4 {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .vn5 {
+        float: right;
+    }
+
+
+    #galeria {
+        margin-top: -110px !important;
+    }
+
+    #textgaleria>h3 {
+        font-size: 2.5rem !important;
+    }
+
+    .loop>img {
+        height: 60% !important;
+        margin-left: 40px;
+    }
+
+    .rodape1 {
+        display: none;
+    }
+
+    .rodape2 {
+        background: url(./images/Secao\ -\ mapa-\ M.png) center no-repeat;
+        background-position: bottom;
+        background-size: 88%;
+        height: 61vw;
+    }
+
+    .rodape2>div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #mapdesc {
+        margin-top: 80px;
+    }
+
+    #mapdesc>h1 {
+        font-size: 4vw;
+        margin-left: 55px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    #mapdesc>h3 {
+        font-size: 3vw;
+        font-weight: 400;
+        margin-left: 55px;
+        margin-top: unset;
+    }
+
+    #mapdesc>iframe {
+        display: none;
+    }
+
+    #vem {
+        flex: unset !important;
+        max-width: unset !important;
+        text-align-last: center;
+        margin-bottom: -7vw;
+        margin-top: 30px;
+    }
+
+    #vem>img {
+        width: 40vw;
+    }
+
+    #social {
+        background: url(./images/fundo-menina-rodape-M.png) right no-repeat;
+        height: 48vh;
+        background-size: 92%;
+        background-position: right;
+        background-position-x: 137px;
+        margin-bottom: -233px;
+        flex: unset !important;
+        display: flex;
+        max-width: unset !important;
+    }
+
+    #instagram {
+        width: 100%;
+        display: inline-grid;
+        justify-content: end;
+    }
+
+    #facebook {
+        width: 100%;
+        display: inline-grid;
+        justify-content: start;
+    }
+
+
+    #social>a {
+        align-content: center;
+        margin-right: 40px;
+        margin-left: -15px;
+    }
+
+    #social>a>img {
+        width: 200px;
+    }
+
+    #footer {
+        display: none !important;
+    }
+
+    #footer-md-logo>img {
+        width: 120%;
+    }
+
+    #footer-md-nav {
+        text-align-last: left;
+        margin-bottom: 5px;
+        font-family: 'roboto', sans-serif;
+        font-size: 1.3vw;
+    }
+
+    #footer-md-nav>li {
+        margin-bottom: 18px;
+        width: 145px;
+    }
+
+    #footer-md-nav>li>a {
+        text-decoration: none;
+        color: #fff;
+
+    }
+
+    #footer-md-nav>li>a:hover {
+        color: lightgray;
+    }
+
+    #rodape2 {
+        display: none;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+
+
+    #main-header {
+        margin-bottom: 29px;
+    }
+
+    .jkl {
+        margin-left: 85px !important;
+    }
+
+    nav.navbar-transparente {
+        padding: unset;
+        margin-top: unset;
+    }
+
+    #logo {
+        margin-top: -60px;
+    }
+
+    .navbar-brand {
+        width: 180px;
+    }
+
+    .nav-item {
+        font-size: 14px;
+        margin-left: -35px;
+    }
+
+    .navbar-nav {
+        margin-left: 230px !important;
+    }
+
+    #nav-mob {
+        display: none;
+    }
+
+    #esk {
+        width: 100%;
+        height: 100%;
+        margin-left: -3px;
+    }
+
+
+    #mentor2 {
+        margin-top: -60px
+    }
+
+    .bannercontainer {
+        width: 100%;
+    }
+
+    .bannerText {
+        font-size: 40px!important;
+        margin-bottom: 50px!important;
+    }
+
+
+    .carousel-caption {
+        margin-left: 40px !important;
+    }
+
+    .carousel-caption>a {
+        display: none;
+    }
+
+    .w-100 {
+        height: 50vw;
+    }
+
+    .lyn {
+        width: 100%;
+    }
+
+    #servicos {
+        width: 100%;
+    }
+
+    #row1 {
+        width: 95%;
+        margin-left: unset;
+    }
+
+    .card {
+        width: 100% !important;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .card-body1 {
+        width: 120%;
+        height: 37vw !important;
+        text-align: end;
+        align-items: center;
+        display: grid;
+        background-size: 160%;
+        background-position: bottom;
+        background-position-x: -15px;
+        padding-left: unset;
+    }
+
+    .card-body1 .card-title {
+        margin-top: 20px;
+        font-size: 2.5vw;
+        justify-self: center;
+        margin-left: 6vw;
+    }
+
+    .card-body1 .card-text {
+        font-size: 5vw;
+        text-align: justify;
+        justify-self: center;
+
+    }
+
+    .conheca-mais1 {
+        justify-self: center;
+    }
+
+    .card-body2 {
+        width: 150%;
+        height: 37vw !important;
+        display: grid;
+        background-size: 120%;
+    }
+
+    .card-body2 .card-title {
+        margin-top: 20px;
+        font-size: 2.5vw;
+    }
+
+    .card-body2 .card-text {
+        font-size: 5vw;
+    }
+
+    .card-body3 {
+        width: 120%;
+        height: 37vw !important;
+        background-position: initial;
+        background-size: 110%;
+        background-position-x: -50px;
+        display: grid;
+        align-content: center;
+        justify-content: left;
+        padding-left: 5rem;
+    }
+
+    .card-body3 .card-title {
+        font-size: 2.5vw;
+    }
+
+    .card-body3 .card-text {
+        font-size: 5vw;
+    }
+
+    #menina {
+        display: none !important;
+    }
+
+    #menino {
+        display: none !important;
+    }
+
+    #recursos {
+        background: url(./images/Secao-2-M.png) right no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        height: 64vw;
+        margin-top: -107px;
+        padding-top: 10px;
+        margin-bottom: unset;
+    }
+
+    #recursos>div {
+        height: 100%;
+    }
+
+    #boy {
+        display: grid;
+        height: 100%;
+        align-content: center;
+        margin-top: 43px;
+    }
+
+    #recursos h4 {
+        font-size: 3vw;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 5vw;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos2 {
+        display: none !important;
+    }
+
+    #resources3 {
+        flex: unset !important;
+        max-width: unset !important;
+        margin-top: 3vw;
+    }
+
+    #recursos3 {
+        background: url(./images/Secao\ -\ Mulher\ -M.png) center no-repeat;
+        margin-top: -28vw;
+        height: 90vw;
+        background-size: 100%;
+    }
+
+    #recursos3 h2 {
+        font-size: 5vw;
+        line-height: 6vw;
+        text-align-last: right;
+
+    }
+
+    #recursos3 h4 {
+        color: #05143a;
+        font-size: 3vw;
+        margin-top: 25vw;
+        text-align-last: right;
+    }
+
+    .quebra1 {
+        display: none !important;
+    }
+
+    #mentortitle {
+        display: none;
+    }
+
+    #mentor3 {
+        margin-top: -23vw;
+    }
+
+    .vn4 {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .vn5 {
+        float: right;
+    }
+
+
+    #galeria {
+        margin-top: -110px !important;
+    }
+
+    #textgaleria>h3 {
+        font-size: 2.5rem !important;
+    }
+
+    .loop>img {
+        height: 60% !important;
+        margin-left: 40px;
+    }
+
+    .rodape1 {
+        display: none;
+    }
+
+    .rodape2 {
+        background: url(./images/Secao\ -\ mapa-\ M.png) center no-repeat;
+        background-position: bottom;
+        background-size: 88%;
+        height: 61vw;
+    }
+
+    .rodape2>div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #mapdesc {
+        margin-top: 100px;
+    }
+
+    #mapdesc>h1 {
+        font-size: 4vw;
+        margin-left: 100px;
+        font-weight: 100;
+        margin-bottom: 30px;
+    }
+
+    #mapdesc>h3 {
+        font-size: 3vw;
+        font-weight: 100;
+        margin-left: 100px;
+        margin-top: unset;
+    }
+
+    #mapdesc>iframe {
+        margin-right: -37vw !important;
+        margin-top: 4vw !important;
+    }
+
+    #vem {
+        flex: unset !important;
+        max-width: unset !important;
+        text-align-last: center;
+        margin-bottom: -7vw;
+        height: 15vw;
+    }
+
+    #vem>img {
+        width: 40vw;
+    }
+
+    #social {
+        background: url(./images/fundo-menina-rodape-G.png) right no-repeat;
+        height: 48vh;
+        background-size: 92%;
+        background-position: right;
+        background-position-x: 150px;
+        margin-bottom: -193px;
+        flex: unset !important;
+        display: flex;
+        max-width: unset !important;
+    }
+
+    #instagram {
+        width: 100%;
+        display: inline-grid;
+        justify-content: end;
+    }
+
+    #facebook {
+        width: 100%;
+        display: inline-grid;
+        justify-content: start;
+    }
+
+
+    #social>a {
+        align-content: center;
+        margin-right: 40px;
+        margin-left: -15px;
+    }
+
+    #social>a>img {
+        width: 250px
+    }
+
+    #footer {
+        display: none !important;
+    }
+
+    #footer-md-logo>img {
+        width: 120%;
+    }
+
+    #footer-md-nav {
+        text-align-last: left;
+        margin-bottom: 5px;
+        font-family: 'roboto', sans-serif;
+        font-size: 1.3vw;
+    }
+
+    #footer-md-nav>li {
+        margin-bottom: 18px;
+        width: 145px;
+    }
+
+    #footer-md-nav>li>a {
+        text-decoration: none;
+        color: #fff;
+
+    }
+
+    #footer-md-nav>li>a:hover {
+        color: lightgray;
+    }
+
+    #rodape2 {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    #main-header {
+        margin-bottom: 29px;
+    }
+
+    .jkl {
+        margin-left: 70px !important;
+    }
+
+    nav.navbar-transparente {
+        padding: unset;
+        margin-top: unset;
+    }
+
+    #logo {
+        margin-top: -60px;
+    }
+
+    .rodape {
+        display: none;
+    }
+
+    .navbar-brand {
+        width: 180px;
+    }
+
+    .nav-item {
+        font-size: 14px;
+        margin-left: -35px;
+    }
+
+    .navbar-nav {
+        margin-left: 230px !important;
+    }
+
+    #nav-mob {
+        display: none;
+    }
+
+    #esk {
+        width: 100%;
+        height: 100%;
+        margin-left: -10px;
+    }
+
+    #banner {
+        margin-top: -28px;
+    }
+
+    .bannerText {
+        font-size: 40px!important;
+        margin-bottom: 50px!important;
+    }
+
+    .bannercontainer {
+        width: 100%;
+    }
+
+    .carousel-caption {
+        margin-left: 40px !important;
+    }
+
+    .carousel-caption>a {
+        display: none;
+    }
+
+    .w-100 {
+        height: 50vw;
+    }
+
+    .lyn {
+        width: 100%;
+    }
+
+    #servicos {
+        width: 100%;
+    }
+
+    #row1 {
+        width: 95%;
+        margin-left: unset;
+    }
+
+    .card {
+        width: 100% !important;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .card-body1 {
+        width: 120%;
+        height: 37vw !important;
+        text-align: end;
+        align-items: center;
+        display: grid;
+        background-size: 160%;
+        background-position: bottom;
+        background-position-x: -15px;
+        padding-left: unset;
+    }
+
+    .card-body1 .card-title {
+        margin-top: 20px;
+        font-size: 2.5vw;
+        justify-self: center;
+        margin-left: 6vw;
+    }
+
+    .card-body1 .card-text {
+        font-size: 5vw;
+        text-align: justify;
+        justify-self: center;
+
+    }
+
+    .conheca-mais1 {
+        justify-self: center;
+    }
+
+    .card-body2 {
+        width: 150%;
+        height: 37vw !important;
+        display: grid;
+        background-size: 120%;
+    }
+
+    .card-body2 .card-title {
+        margin-top: 20px;
+        font-size: 2.5vw;
+    }
+
+    .card-body2 .card-text {
+        font-size: 5vw;
+    }
+
+    .card-body3 {
+        width: 120%;
+        height: 37vw !important;
+        background-position: initial;
+        background-size: 110%;
+        background-position-x: -50px;
+        display: grid;
+        align-content: center;
+        justify-content: left;
+        padding-left: 7rem;
+    }
+
+    .card-body3 .card-title {
+        font-size: 2.5vw;
+    }
+
+    .card-body3 .card-text {
+        font-size: 5vw;
+    }
+
+    #menina {
+        display: none !important;
+    }
+
+    #menino {
+        display: none !important;
+    }
+
+    #recursos {
+        background: url(./images/Secao-2-G.png) right no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        height: 64vw;
+        margin-top: -107px;
+        padding-top: 10px;
+        margin-bottom: unset;
+    }
+
+    #recursos>div {
+        height: 100%;
+    }
+
+    #boy {
+        display: grid;
+        height: 100%;
+        align-content: center;
+        margin-top: 43px;
+    }
+
+    #recursos h4 {
+        font-size: 3vw;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 5vw;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos2 {
+        display: none !important;
+    }
+
+    #resources3 {
+        flex: unset !important;
+        max-width: unset !important;
+        margin-top: 3vw;
+    }
+
+    #recursos3 {
+        background: url(./images/Secao\ -\ Mulher\ -G.png) center no-repeat;
+        margin-top: -28vw;
+        height: 90vw;
+        background-size: 100%;
+    }
+
+    #recursos3 h2 {
+        font-size: 5vw;
+        line-height: 6vw;
+        text-align-last: right;
+
+    }
+
+    #recursos3 h4 {
+        color: #05143a;
+        font-size: 3vw;
+        margin-top: 25vw;
+        text-align-last: right;
+    }
+
+    .quebra1 {
+        display: none !important;
+    }
+
+    #mentortitle {
+        display: none;
+    }
+
+    #mentor3 {
+        margin-top: -23vw;
+    }
+
+    .vn4 {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .vn5 {
+        float: right;
+    }
+
+
+    #galeria {
+        margin-top: -110px !important;
+    }
+
+    #textgaleria>h3 {
+        font-size: 2.5rem !important;
+    }
+
+    .loop>img {
+        height: 60% !important;
+        margin-left: 40px;
+    }
+
+    .rodape1 {
+        display: none;
+    }
+
+    .rodape2 {
+        background: url(./images/Secao\ -\ mapa-\ G.png) center no-repeat;
+        background-position: bottom;
+        background-size: 88%;
+        height: 52vw;
+    }
+
+    .rodape2>div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #mapdesc>h1 {
+        font-size: 4vw;
+        margin-left: 100px;
+        font-weight: 100;
+        margin-bottom: 30px;
+    }
+
+    #mapdesc>h3 {
+        font-size: 3vw;
+        font-weight: 100;
+        margin-left: 100px;
+        margin-top: unset;
+    }
+
+    #mapdesc>iframe {
+        border: 0;
+        margin-right: -37vw !important;
+        margin-top: 4vw !important;
+    }
+
+    #vem {
+        flex: unset !important;
+        max-width: unset !important;
+        text-align-last: center;
+        margin-bottom: -7vw;
+        height: 16vw;
+    }
+
+    #vem>img {
+        width: 30vw;
+    }
+
+
+
+    #social {
+        background: url(./images/fundo-menina-rodape-G.png) right no-repeat;
+        height: 48vh;
+        background-size: 92%;
+        background-position: right;
+        background-position-x: 150px;
+        margin-bottom: -193px;
+        flex: unset !important;
+        display: flex;
+        max-width: unset !important;
+    }
+
+    #instagram {
+        width: 100%;
+        display: inline-grid;
+        justify-content: end;
+    }
+
+    #facebook {
+        width: 100%;
+        display: inline-grid;
+        justify-content: start;
+    }
+
+
+    #social>a {
+        align-content: center;
+        margin-right: 40px;
+        margin-left: -15px;
+    }
+
+    #social>a>img {
+        width: 20vw;
+    }
+
+    #footer {
+        display: none !important;
+    }
+
+    /*
+	#footer1 {
+		display: grid;
+    	grid-template-columns: repeat(4, 1fr);
+		font-size: 14px;
+	}
+
+	#footer1>div {
+		width: 147px;
+		margin-right: 10px;
+	}
+
+	#logofooter>img {
+		width: 140px;
+		margin-top: unset!important;
+	}
+
+	#footer li{
+		display: none;
+		margin-bottom: 30px;
+	}
+	#formbar {
+		position: unset!important;
+		margin-top: 20px!important;
+		text-align: -webkit-right;
+	}
+	#search-bar1 {
+		display: none!important;
+	}  */
+
+    #footer-md-logo>img {
+        width: 120%;
+    }
+
+    #footer-md-nav {
+        text-align-last: left;
+        margin-bottom: 5px;
+        font-family: 'roboto', sans-serif;
+        font-size: 1.3vw;
+        font-weight: 100;
+    }
+
+    #footer-md-nav>li {
+        margin-bottom: 18px;
+        width: 171px;
+    }
+
+    #footer-md-nav>li>a {
+        text-decoration: none;
+        color: #fff;
+
+    }
+
+    #footer-md-nav>li>a:hover {
+        color: lightgray;
+    }
+
+    #rodape2 {
+        display: none;
+    }
+
+    #mentor2 {
+        margin-top: -58px;
+    }
+}
+
+
+@media (min-width: 1201px) and (max-width: 2000px) {
+
+    #main-header {
+        margin-bottom: 29px;
+    }
+
+    nav.navbar-transparente {
+        padding: unset;
+        margin-top: unset;
+    }
+
+    #logo {
+        margin-top: -60px;
+    }
+
+    .navbar-brand {
+        width: 180px;
+    }
+
+    .nav-item {
+        font-size: 14px;
+        margin-left: -13px;
+        background: #fff;
+    }
+
+    .navbar-nav {
+        margin-left: 250px !important;
+    }
+
+    #nav-mob {
+        display: none;
+    }
+
+    #banner {
+        margin-top: -28px;
+    }
+
+    #esk {
+        width: 100%;
+        height: 100%;
+        margin-left: -10px;
+    }
+
+    .bannercontainer {
+        width: 100%;
+    }
+
+    .bannerText {
+        font-size: 50px!important;
+        margin-bottom: 25px!important;
+    }
+
+    .carousel-caption {
+        margin-left: 40px !important;
+    }
+
+    .carousel-caption>a {
+        display: none;
+    }
+
+    .w-100 {
+        height: 50vw;
+    }
+
+    .lyn {
+        width: 100%;
+    }
+
+    #servicos {
+        width: 100%;
+    }
+
+    #row1 {
+        width: 95%;
+        margin-left: unset;
+    }
+
+    .card {
+        width: 100% !important;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .card-body1 {
+        width: 120%;
+        height: 37vw !important;
+        text-align: end;
+        align-items: center;
+        display: grid;
+        background-size: 160%;
+        background-position: bottom;
+        background-position-x: -15px;
+        padding-left: unset;
+    }
+
+    .card-body1 .card-title {
+        margin-top: 20px;
+        font-size: 2.5vw;
+        justify-self: center;
+        margin-left: 0vw;
+    }
+
+    .card-body1 .card-text {
+        font-size: 5vw;
+        text-align: justify;
+        justify-self: center;
+
+    }
+
+    .conheca-mais1 {
+        justify-self: center;
+    }
+
+    .card-body2 {
+        width: 150%;
+        height: 37vw !important;
+        display: grid;
+        background-size: 120%;
+    }
+
+    .card-body2 .card-title {
+        margin-top: 20px;
+        font-size: 2.5vw;
+    }
+
+    .card-body2 .card-text {
+        font-size: 5vw;
+    }
+
+    .card-body3 {
+        width: 120%;
+        height: 37vw !important;
+        background-position: initial;
+        background-size: 110%;
+        background-position-x: -50px;
+        display: grid;
+        align-content: center;
+        justify-content: left;
+        padding-left: 10rem;
+    }
+
+    .card-body3 .card-title {
+        font-size: 2.5vw;
+        margin-top: -65px;
+    }
+
+    .card-body3 .card-text {
+        font-size: 5vw;
+    }
+
+    #menina {
+        display: none !important;
+    }
+
+    #menino {
+        display: none !important;
+    }
+
+    #recursos {
+        background: url(./images/Secao-2-GG.png) right no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        height: 55vw;
+        margin-top: -107px;
+        padding-top: 10px;
+        margin-bottom: unset;
+    }
+
+    #recursos>div {
+        height: 100%;
+    }
+
+    #boy {
+        display: grid;
+        height: 100%;
+        align-content: center;
+        margin-top: 43px;
+    }
+
+    #recursos h4 {
+        font-size: 2vw;
+        font-weight: 100;
+    }
+
+    #recursos h2 {
+        font-size: 3vw;
+        letter-spacing: -0.04em;
+    }
+
+    #recursos2 {
+        display: none !important;
+    }
+
+    #resources3 {
+        flex: unset !important;
+        max-width: unset !important;
+        margin-top: 3vw;
+    }
+
+    #recursos3 {
+        background: url(./images/Secao\ -\ Mulher\ -GG.png) center no-repeat;
+        margin-top: -28vw;
+        height: 90vw;
+        background-size: 100%;
+    }
+
+    #recursos3 h2 {
+        font-size: 3vw;
+        line-height: 6vw;
+        text-align-last: right;
+
+    }
+
+    #recursos3 h4 {
+        color: #05143a;
+        font-size: 3vw;
+        margin-top: 25vw;
+        text-align-last: right;
+    }
+
+    .quebra1 {
+        display: none !important;
+    }
+
+    #mentortitle {
+        display: none;
+    }
+
+    #mentor3 {
+        margin-top: -23vw;
+    }
+
+    .vn4 {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .vn5 {
+        float: right;
+    }
+
+
+    #galeria {
+        margin-top: -110px !important;
+    }
+
+    #textgaleria>h3 {
+        font-size: 2rem !important;
+    }
+
+    .loop>img {
+        height: 60% !important;
+        margin-left: 40px;
+    }
+
+    .rodape1 {
+        display: none;
+    }
+
+    .rodape2 {
+        background: url(./images/Secao\ -\ mapa-\ GG.png) center no-repeat;
+        background-position: bottom;
+        background-size: 88%;
+        height: 52vw;
+    }
+
+    .rodape2>div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #mapdesc>h1 {
+        font-size: 3vw;
+        margin-left: 100px;
+        font-weight: 100;
+        margin-bottom: 30px;
+    }
+
+    #mapdesc>h3 {
+        font-size: 2vw;
+        font-weight: 100;
+        margin-left: 100px;
+        margin-top: unset;
+    }
+
+    #vem {
+        flex: unset !important;
+        max-width: unset !important;
+        text-align-last: center;
+        margin-bottom: -7vw;
+        height: 16vw;
+    }
+
+    #vem>img {
+        width: 30vw;
+    }
+
+    #social {
+        background: url(./images/fundo-menina-rodape-GG.png) right no-repeat;
+        height: 48vh;
+        background-size: 92%;
+        background-position: right;
+        background-position-x: 150px;
+        margin-bottom: -193px;
+        flex: unset !important;
+        display: flex;
+        max-width: unset !important;
+    }
+
+    #instagram {
+        width: 100%;
+        display: inline-grid;
+        justify-content: end;
+    }
+
+    #facebook {
+        width: 100%;
+        display: inline-grid;
+        justify-content: start;
+    }
+
+
+    #social>a {
+        align-content: center;
+        margin-right: 40px;
+        margin-left: -15px;
+    }
+
+    #social>a>img {
+        width: 250px;
+    }
+
+    #footer {
+        display: none !important;
+    }
+
+    #footer-md-logo>img {
+        width: 120%;
+    }
+
+    #footer-md-nav {
+        font-weight: 100;
+        text-align-last: left;
+        margin-bottom: 5px;
+        font-family: 'roboto', sans-serif;
+        font-size: 0.9vw;
+    }
+
+    #footer-md-nav>li {
+        margin-bottom: 18px;
+        width: 171px;
+    }
+
+    #footer-md-nav>li>a {
+        text-decoration: none;
+        color: #fff;
+
+    }
+
+    #footer-md-nav>li>a:hover {
+        color: lightgray;
+    }
+
+    #mentor2 {
+        margin-top: -58px;
+    }
+
+}
+
+
+/*Estilização Propria */
+
+
+@media (max-width:767px) {
+    #main-header {
+        display: none
+    }
+}
+
+@media (max-width: 768px) {
+    #mapdesc>iframe {
+        display: none !important;
+    }
+}
